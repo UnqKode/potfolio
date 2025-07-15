@@ -170,7 +170,7 @@ function About() {
         <div className="mt-12 flex gap-6 items-center">
           {/* LinkedIn */}
           <motion.a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/manas-yadav-0a76b4280/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
@@ -182,7 +182,7 @@ function About() {
 
           {/* GitHub */}
           <motion.a
-            href="https://github.com/your-username"
+            href="https://github.com/unqKode"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
@@ -194,7 +194,7 @@ function About() {
 
           {/* Gmail */}
           <motion.a
-            href="mailto:yourmail@gmail.com"
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mycodeunq@gmail.com"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.95 }}
             className="text-gray-700 hover:text-red-600 transition-colors text-2xl"

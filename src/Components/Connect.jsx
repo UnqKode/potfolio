@@ -49,7 +49,7 @@ const Connect = () => {
     { icon: <FaInstagram size={24} />, name: "Instagram", url: "https://www.instagram.com/yadav__manas/" },
     { icon: <FaReddit size={24} />, name: "Reddit", url: "https://www.reddit.com/user/maya_1310/" },
     { icon: <FaTwitter size={24} />, name: "Twitter", url: "https://reddit.com/u/mycodeunq" },
-    { icon: <FaEnvelope size={24} />, name: "Mail", url: "https://gmail.com/u/mycodeunq" },
+    { icon: <FaEnvelope size={24} />, name: "Mail", url: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=mycodeunq@gmail.com" },
   ];
 
   return (
@@ -166,6 +166,7 @@ const Connect = () => {
           ))}
         </motion.div>
       </motion.div>
+      
     </section>
   );
 };
