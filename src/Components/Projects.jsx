@@ -107,7 +107,7 @@ function Projects() {
 
   return (
     <section className="relative" onMouseMove={handleMouseMove}>
-      <div className="bg-gradient-to-r from-black to-transparent mt-2 h-[1px] w-full"></div>
+      <div className="bg-gradient-to-r from-black to-transparent mt-2 h-[1px] w-full overflow-hidden"></div>
       {myProjects.map((project) => (
         <ProjectTile key={project.id} {...project} setPreview={setPreview} />
       ))}

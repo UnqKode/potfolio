@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Banner from "./Components/Banner";
 import Info from "./Components/Info";
 import Connect from "./Components/Connect";
+import TechStack from "./Components/TechStack";
 
 function App() {
   const scrollRef = useRef(null);
@@ -34,9 +35,11 @@ function App() {
       <div data-scroll-container ref={scrollRef}>
         <Hero />
         <About />
-        <Banner text="🚧 WORK IN PROGRESS" speed={8} direction="horizontal" />
+        <Banner text=" WEAPONS IN MY ARSENAL 🕸️" speed={-8} direction="horizontal" />
+        <TechStack />
+        <Banner text="⚡ FRESH PROJECTS DROPPING SOON" speed={8} direction="horizontal" />
         <Info />
-        <Banner text="|  LETS CONNECT   " speed={-8} direction="horizontal" />
+        <Banner text="🔗 LET’S CREATE SOMETHING TOGETHER" speed={-8} direction="horizontal" />
         <Connect />
       </div>
     </>

@@ -44,12 +44,12 @@ const Connect = () => {
   ];
 
   const socialIcons = [
-    { icon: <FaGithub size={24} />, name: "GitHub", url: "https://github.com/mycodeunq" },
-    { icon: <FaLinkedin size={24} />, name: "LinkedIn", url: "https://linkedin.com/in/mycodeunq" },
-    { icon: <FaInstagram size={24} />, name: "Instagram", url: "https://instagram.com/mycodeunq" },
-    { icon: <FaReddit size={24} />, name: "Reddit", url: "https://reddit.com/u/mycodeunq" },
-    { icon: <FaTwitter size={24} />, name: "Reddit", url: "https://reddit.com/u/mycodeunq" },
-    { icon: <FaEnvelope size={24} />, name: "Reddit", url: "https://reddit.com/u/mycodeunq" },
+    { icon: <FaGithub size={24} />, name: "GitHub", url: "https://github.com/UnqKode" },
+    { icon: <FaLinkedin size={24} />, name: "LinkedIn", url: "https://www.linkedin.com/in/manas-yadav-0a76b4280/" },
+    { icon: <FaInstagram size={24} />, name: "Instagram", url: "https://www.instagram.com/yadav__manas/" },
+    { icon: <FaReddit size={24} />, name: "Reddit", url: "https://www.reddit.com/user/maya_1310/" },
+    { icon: <FaTwitter size={24} />, name: "Twitter", url: "https://reddit.com/u/mycodeunq" },
+    { icon: <FaEnvelope size={24} />, name: "Mail", url: "https://gmail.com/u/mycodeunq" },
   ];
 
   return (
@@ -138,7 +138,7 @@ const Connect = () => {
           My Socials
         </motion.div>
 
-        <motion.div className="flex justify-center items-center gap-8">
+        <motion.div className="flex flex-wrap justify-center items-center gap-8 w-[80vw] ">
           {socialIcons.map((social, index) => (
             <motion.a
               key={index}

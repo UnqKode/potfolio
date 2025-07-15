@@ -57,6 +57,8 @@ function About() {
         initial={{ scale: 1.2, opacity: 0 }}
         animate={isInView ? { scale: 1, opacity: 1 } : {}}
         transition={{ duration: 1.2, ease: "easeOut" }}
+        loading="lazy"
+        
       />
 
       {/* 🔵 bg2: sliding in from right */}
@@ -66,6 +68,7 @@ function About() {
         initial={{ x: "10%", opacity: 0 }}
         animate={isInView ? { x: "0%", opacity: 1 } : {}}
         transition={{ duration: 2.0, ease: "easeOut", delay: 0.3 }}
+        loading="lazy"
       />
       <motion.div
         className="absolute inset-0 z-10 bg-cover bg-center bg-no-repeat pointer-events-none"
@@ -73,6 +76,7 @@ function About() {
         initial={{ x: "10%", opacity: 0 }}
         animate={isInView ? { x: "0%", opacity: 1 } : {}}
         transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
+        loading="lazy"
       />
 
       {/* Floating blurred background elements */}
